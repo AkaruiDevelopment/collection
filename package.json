@@ -10,8 +10,7 @@
     "gen": "gen-esm-wrapper dist/index.js dist/index.mjs",
     "pub": "tsc && npm run gen && npm run docs",
     "deps": "npm install",
-    "docs": "typedoc src/index.ts",
-    "commit": "git add . && git commit -m \"$c\" && git push -u origin main"
+    "docs": "typedoc src/index.ts"
   },
   "keywords": [],
   "author": "",

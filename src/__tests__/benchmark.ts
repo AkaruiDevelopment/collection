@@ -6,6 +6,7 @@ const djs = new coll<string, number>()
 
 const newer = new Collection<string, number>()
 
+newer.values
 const arr: number[] = new Array(100000).fill(1)
 
 for (const key of arr) {
